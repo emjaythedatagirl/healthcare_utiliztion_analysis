@@ -24,7 +24,7 @@ The analysis seeked to answer the following questions:
 
 - How does the Total Medicare Payment vary across provider types?
 
-  ## OBJECTIVES
+ ## OBJECTIVES
 --- 
 - Assess the quality and completeness of the dataset.
 

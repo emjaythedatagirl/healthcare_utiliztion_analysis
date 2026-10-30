@@ -58,6 +58,15 @@ The analysis seeked to answer the following questions:
 
  - Data visualization (Power Bi)
 
+## ANALYSIS
+--- 
+### 1. Data Quality Assessment
+
+Initial SQL checks assessed missing values in the provider, geographic, service, beneficiary, and payment fields.
+
+The initial assessment identified nine NULL values in Rndrng_Prvdr_Last_Org_Name and no NULL values in the core analytical fields checked.
+
+The nine missing organisation-name values were not automatically replaced or deleted because the field was not required for the main dashboard measures.
    
  
 

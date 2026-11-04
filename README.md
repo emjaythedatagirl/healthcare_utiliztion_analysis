@@ -67,6 +67,15 @@ Initial SQL checks assessed missing values in the provider, geographic, service,
 The initial assessment identified nine NULL values in Rndrng_Prvdr_Last_Org_Name and no NULL values in the core analytical fields checked.
 
 The nine missing organisation-name values were not automatically replaced or deleted because the field was not required for the main dashboard measures.
+
+###  2. Key Performance Index (KPI)
+--- 
+| KPI | Value |
+|---|---:|
+| Reported Beneficiary Volume | 186 Million |
+| Unique Providers | 670,000 |
+| Total Medicare Payments | $61.70 Billion |
+| Total Services | 2 Billion |
    
  
 

@@ -106,6 +106,60 @@ A separate state lookup table was created to map state abbreviations to their co
 
 - Average services per provider calculations.
 
+## Data Cleaning and Preparation
+
+Before performing the analysis, I conducted data exploration and quality checks in MySQL.
+
+The following steps were undertaken:
+
+1. Database and data exploration
+
+Created the healthdata database.
+
+Imported and inspected the Medicare dataset.
+
+Used DESCRIBE to examine column names and data types.
+
+Reviewed sample records to understand the structure of the dataset.
+
+2. Missing value assessment
+
+Used conditional aggregation to check for NULL values across the dataset's key columns, including provider identification, location, specialty, beneficiary, service and payment fields.
+
+3. Blank value assessment
+
+Used TRIM() to identify empty strings and whitespace in relevant text columns.
+
+The checks identified:
+
+Column
+
+Blank Entries
+
+Provider First Name
+
+31,598
+
+Provider Credentials
+
+89,784
+
+These entries were retained rather than arbitrarily replaced because the missing information was not essential to the main utilization and expenditure calculations.
+
+4. Provider validation
+
+Counted total records and distinct NPIs.
+
+Checked for NPIs appearing in multiple records to assess repeated provider entries.
+
+Used COUNT(DISTINCT Rndrng_NPI) when calculating unique provider counts.
+
+5. Geographic standardization
+
+Created a separate state_lookup table containing state abbreviations and their corresponding full names.
+
+Used SQL JOIN operations to connect the lookup table to the Medicare dataset, making state-level analysis and reporting easier to interpret.
+
 ## ANALYSIS
 --- 
 ### 1. Data Quality Assessment

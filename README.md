@@ -126,6 +126,8 @@ Reviewed sample records to understand the structure of the dataset.
 
 Used conditional aggregation to check for NULL values across the dataset's key columns, including provider identification, location, specialty, beneficiary, service and payment fields.
 
+![](nullmedicare.PNG)
+
 3. Blank value assessment
 
 Used TRIM() to identify empty strings and whitespace in relevant text columns.

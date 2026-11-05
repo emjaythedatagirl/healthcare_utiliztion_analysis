@@ -130,19 +130,7 @@ Used conditional aggregation to check for NULL values across the dataset's key c
 
 Used TRIM() to identify empty strings and whitespace in relevant text columns.
 
-The checks identified:
-
-Column
-
-Blank Entries
-
-Provider First Name
-
-31,598
-
-Provider Credentials
-
-89,784
+![](trimmedicare.PNG)
 
 These entries were retained rather than arbitrarily replaced because the missing information was not essential to the main utilization and expenditure calculations.
 

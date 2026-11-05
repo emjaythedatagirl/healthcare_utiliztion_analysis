@@ -4,14 +4,18 @@
 --- 
 ## PROJECT OVERVIEW
 ---
-This project examines Medicare healthcare utilization patterns across provider types and geographic locations using the **2024 CMS Medicare Physician & Other Practitioners dataset**.
+This project explores healthcare utilization and Medicare expenditure patterns using the 2024 Medicare Physician & Other Practitioners dataset published by the Centers for Medicare & Medicaid Services (CMS).
 
-Using **MySQL** for data validation and analysis and **Power BI** for data visualisation, the project explores reported service volume, provider supply, reported beneficiary counts, and Medicare payments.
+The analysis examines how Medicare providers, reported beneficiary volume, healthcare services and Medicare payments are distributed across provider specialties and geographic locations in the United States.
 
-The goal is to understand how reported healthcare activity is distributed across provider types and US states, and how service volume varies relative to provider supply.
- 
+I used MySQL for data exploration, cleaning, validation and analysis, and Power BI to develop an interactive dashboard that presents the findings.
+
+The project focuses on understanding the relationship between provider availability, service utilization and Medicare expenditure, while identifying differences across provider types and states.
+
 ## PROBLEM STATEMENT
 --- 
+
+Healthcare utilization and provider availability can vary considerably across geographic locations and medical specialties. Understanding these variations can provide useful insights into healthcare resource distribution and how Medicare spending is allocated.
 The analysis seeked to answer the following questions:
 
 - How does the *Total Services reported* and the *Unique Provider count* vary per state?
@@ -41,22 +45,66 @@ The analysis seeked to answer the following questions:
 ## DATASET
 ---
 - Source: Centers for Medicare & Medicaid Services (CMS)
-  
-- Dataset: Medicare Physician & Other Practitioners, 2024
-  
-- Records analysed: 669,587 rows in the imported MySQL table
-  
-- Tools: MySQL and Microsoft Power BI
+
+- Dataset: Medicare Physician & Other Practitioners – 2024
+
+- Records: Approximately 669,587 provider records
+
+- Geographic coverage: U.S. states represented in the dataset
+
+- Data structure: Provider-level aggregated Medicare utilization and payment information.
+
+The dataset contains information about healthcare providers, their locations, provider specialties, reported beneficiaries, services rendered, submitted charges, Medicare-approved amounts and Medicare payments.
+
+A separate state lookup table was created to map state abbreviations to their corresponding full state names for geographic analysis.
 
  ## KEY SKILLS DEMONSTRATED
 --- 
- - Data cleaning (Mysql)
+### MySQL
 
- - DAX measures (payment per service, reported beneficiary volume, service per provider, total medicare payment)
+- Database creation and management.
 
- - Interactive slicers (state, provider types)
+- Data exploration using SELECT and DESCRIBE.
 
- - Data visualization (Power Bi)
+- Data quality assessment and validation.
+
+- Aggregations using SUM(), COUNT() and COUNT(DISTINCT).
+
+- Grouping and ranking using GROUP BY and ORDER BY.
+
+- Table relationships using JOIN.
+
+- Calculating services per provider.
+
+- Creating a state lookup table for geographic analysis.
+
+### Power BI
+
+- Data visualization and dashboard development.
+
+- KPI cards for high-level performance indicators.
+
+- Geographic comparisons across states.
+
+- Provider specialty and service utilization comparisons.
+
+- Medicare expenditure analysis.
+
+- Interactive exploration of provider and geographic patterns.
+
+### Analytical techniques
+
+- Descriptive analysis.
+
+- Geographic analysis.
+
+- Provider distribution analysis.
+
+- Specialty-level utilization analysis.
+
+- Financial aggregation and comparison.
+
+- Average services per provider calculations.
 
 ## ANALYSIS
 --- 
@@ -76,6 +124,10 @@ The nine missing organisation-name values were not automatically replaced or del
 | Unique Providers | 670,000 |
 | Total Medicare Payments | $61.70 Billion |
 | Total Services | 2 Billion |
+
+### 3. Key Questions Answered
+---
+#### - 
    
  
 

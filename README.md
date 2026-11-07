@@ -169,7 +169,7 @@ The nine missing organisation-name values were not automatically replaced or del
 | Total Medicare Payments | $61.70 Billion |
 | Total Services | 2 Billion |
 
-### 3. Key Questions Answered
+### 3.  Questions Answered And Key Findings
 ---
 - 1. How does the *Total Services reported* and the *Unique Provider count* vary per state?
  ![](medicarestate.PNG)
@@ -195,6 +195,23 @@ The nine missing organisation-name values were not automatically replaced or del
 - Florida therefore had approximately 22% more reported services per provider than California.
 
 - This suggests that a higher provider count does not necessarily translate into a proportionately higher service volume.
+  
+
+- 2.  What are the *Top 10* Provider types with the highest Reported Beneficiary Volume?
+     ![](medicarebeneficiary.PNG)
+---
+
+- Diagnostic Radiology recorded the highest reported beneficiary volume at 29.8 million, almost twice the volume recorded by Nurse Practitioners (14.9 million).
+
+- Nurse Practitioners and Internal Medicine ranked second and third, with 14.9 million and 11.7 million reported beneficiary counts respectively.
+
+- Clinical Laboratory ranked fourth with 10.4 million, while Cardiology and Physician Assistant both recorded approximately 9.3 million.
+
+- Family Practice and Emergency Medicine recorded 8.6 million and 7.2 million respectively.
+
+- Ophthalmology and Pathology had the lowest reported beneficiary volumes among the top 10 provider types, at 5.5 million and 4.9 million.
+
+Overall observation: Diagnostic Radiology stands out with a substantially higher reported beneficiary volume than the other specialties in the top 10.
 
 
    

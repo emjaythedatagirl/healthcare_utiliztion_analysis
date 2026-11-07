@@ -172,7 +172,7 @@ The nine missing organisation-name values were not automatically replaced or del
 ### 3. Key Questions Answered
 ---
 - 1. How does the *Total Services reported* and the *Unique Provider count* vary per state?
- ![](medicareserviceperprovider.PNG)
+ ![](medicarestate.PNG)
 
 - California recorded the highest figures among the states highlighted, with 54,355 unique providers and 201,210,977 reported services.
 

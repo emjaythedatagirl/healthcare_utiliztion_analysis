@@ -171,8 +171,9 @@ The nine missing organisation-name values were not automatically replaced or del
 
 ### 3.  Questions Answered And Key Findings
 ---
-- 1. How does the *Total Services reported* and the *Unique Provider count* vary per state?
- ![](medicarestate.PNG)
+#### 1. How does the *Total Services reported* and the *Unique Provider count* vary per state?
+![](medicarestate.PNG)
+---
 
 - California recorded the highest figures among the states highlighted, with 54,355 unique providers and 201,210,977 reported services.
 
@@ -197,8 +198,9 @@ The nine missing organisation-name values were not automatically replaced or del
 - This suggests that a higher provider count does not necessarily translate into a proportionately higher service volume.
   
 
-- 2.  What are the *Top 10* Provider types with the highest Reported Beneficiary Volume?
-     ![](medicarebeneficiary.PNG)
+#### 2.  What are the *Top 10* Provider types with the highest Reported Beneficiary Volume?
+  
+   ![](medicarebeneficiary.PNG)
 ---
 
 - Diagnostic Radiology recorded the highest reported beneficiary volume at 29.8 million, almost twice the volume recorded by Nurse Practitioners (14.9 million).

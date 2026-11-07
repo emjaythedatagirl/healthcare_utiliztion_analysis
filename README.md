@@ -171,7 +171,32 @@ The nine missing organisation-name values were not automatically replaced or del
 
 ### 3. Key Questions Answered
 ---
-#### - 
+- 1. How does the *Total Services reported* and the *Unique Provider count* vary per state?
+ ![](medicareserviceperprovider.PNG)
+
+- California recorded the highest figures among the states highlighted, with 54,355 unique providers and 201,210,977 reported services.
+
+- Florida followed closely in service volume, recording 201,165,452 services from 44,523 unique providers. Interestingly, its total service volume was almost identical to California's despite having fewer providers.
+
+- Texas recorded 44,807 unique providers and 145,370,640 reported services.
+
+- New York had 45,906 unique providers and 104,857,719 reported services.
+
+- Wyoming recorded the lowest provider count among the states highlighted, with 1,221 unique providers and 2,805,749 reported services.
+
+- Vermont had 1,617 unique providers and 2,003,828 reported services.
+
+- California and Florida recorded very similar total service volumes despite a difference of nearly 10,000 providers. This suggests that the number of providers in a state does not necessarily correspond directly to its total service volume. Similarly, states with smaller provider populations generally recorded lower aggregate service volumes in this comparison.
+
+- California: 3,701.79 services per provider.
+
+- Florida: 4,518.24 services per provider.
+
+- Florida therefore had approximately 22% more reported services per provider than California.
+
+- This suggests that a higher provider count does not necessarily translate into a proportionately higher service volume.
+
+
    
  
 

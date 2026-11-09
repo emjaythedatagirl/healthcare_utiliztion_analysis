@@ -16,7 +16,7 @@ The project focuses on understanding the relationship between provider availabil
 --- 
 
 Healthcare utilization and provider availability can vary considerably across geographic locations and medical specialties. Understanding these variations can provide useful insights into healthcare resource distribution and how Medicare spending is allocated.
-The analysis seeked to answer the following questions:
+The analysis sought to answer the following questions:
 
 - How does the *Total Services reported* and the *Unique Provider count* vary per state?
 
@@ -160,7 +160,7 @@ The initial assessment identified nine NULL values in Rndrng_Prvdr_Last_Org_Name
 
 The nine missing organisation-name values were not automatically replaced or deleted because the field was not required for the main dashboard measures.
 
-###  2. Key Performance Index (KPI)
+###  2. Key Performance Indicators (KPI)
 --- 
 | KPI | Value |
 |---|---:|
@@ -284,7 +284,7 @@ Some of the key insights include:
 
 Overall, the findings demonstrate that provider distribution, reported beneficiary volume, service utilization and Medicare expenditure measure different aspects of healthcare activity. Examining them together provides a more comprehensive understanding of Medicare utilization patterns than relying on any single metric.
 
-## 9. Limitations
+##  Limitations
 
 Although the analysis provides useful insights into Medicare provider distribution, service utilization and expenditure, there are limitations to consider when interpreting the findings.
 
@@ -304,7 +304,7 @@ Although the analysis provides useful insights into Medicare provider distributi
 
 8. **No Causal Analysis:** The analysis identifies differences and patterns across states and provider specialties but does not establish the underlying causes of these differences.
 
-## 10. Recommendations
+## Recommendations
 
 Based on the findings from the analysis, the following areas are recommended for further investigation:
 

@@ -20,7 +20,7 @@ The analysis seeked to answer the following questions:
 
 - How does the *Total Services reported* and the *Unique Provider count* vary per state?
 
-- What are the *Top 10* Provider types with the highest Reported Beneficiary Volume?
+- Which *10 provider types* have the highest reported beneficiary volume?
 
 - What are the *Top 10* Provider types with the highest Total Services reported?
 
@@ -58,7 +58,7 @@ The dataset contains information about healthcare providers, their locations, pr
 
 A separate state lookup table was created to map state abbreviations to their corresponding full state names for geographic analysis.
 
- ## KEY SKILLS DEMONSTRATED
+## KEY SKILLS DEMONSTRATED
 --- 
 ### MySQL
 
@@ -267,8 +267,60 @@ Overall observation: Diagnostic Radiology stands out with a substantially higher
 
 - Nurse Practitioners ranked highest in total Medicare payments, while Hematology-Oncology led in total reported services and Diagnostic Radiology led in reported beneficiary volume. These differences demonstrate that high service volume or beneficiary counts do not necessarily correspond to the highest Medicare expenditure.
 
+ ## Overall Insights
 
+The analysis revealed that Medicare healthcare utilization and expenditure vary considerably across geographic locations and provider specialties.
 
+Some of the key insights include:
+
+- California recorded the highest provider count among the states highlighted, while Florida achieved a nearly identical total service volume with fewer providers.
+  
+- Diagnostic Radiology had the highest reported beneficiary volume, while Hematology-Oncology accounted for the highest total reported services.
+  
+- Clinical Laboratory recorded the highest average services per provider, demonstrating that high aggregate service volume and high average service volume are not
+  necessarily the same.
+  
+- Nurse Practitioners accounted for the highest total Medicare payments among the provider types displayed, despite not leading in either total services or reported beneficiary volume.
+
+Overall, the findings demonstrate that provider distribution, reported beneficiary volume, service utilization and Medicare expenditure measure different aspects of healthcare activity. Examining them together provides a more comprehensive understanding of Medicare utilization patterns than relying on any single metric.
+
+## 9. Limitations
+
+Although the analysis provides useful insights into Medicare provider distribution, service utilization and expenditure, there are limitations to consider when interpreting the findings.
+
+1. **Beneficiary Count Overlap:** The `Tot_Benes` field represents reported beneficiary counts at the provider level. A beneficiary may receive services from multiple providers and therefore appear in multiple records. Consequently, summing this field does not necessarily represent the number of unique Medicare beneficiaries.
+
+2. **Aggregated Data:** The dataset contains provider-level aggregated information rather than individual patient-level records. This limits the ability to investigate individual healthcare journeys, diagnoses, treatment outcomes or patterns of service use.
+
+3. **Geographic Interpretation:** Provider locations represent their recorded practice locations, not necessarily the residential locations of beneficiaries receiving care. Therefore, states with higher service volumes do not automatically have more beneficiaries residing there.
+
+4. **Service Volume Interpretation:** Total services and average services per provider do not independently measure healthcare quality, efficiency or productivity. Differences may be influenced by provider specialty, the nature of services delivered and patient needs.
+
+5. **Medicare Payment Interpretation:** Total Medicare payments represent aggregate payments associated with provider types. They do not indicate individual provider earnings, payment per service or the actual cost of delivering healthcare.
+
+6. **Missing Provider Information:** Some records contained blank provider first names and credentials. Although these fields were not essential to the main analysis, their absence limits certain provider-identification activities.
+
+7. **Limited Time Scope:** The analysis focuses on 2024 data and therefore does not establish whether the observed utilization and expenditure patterns represent long-term trends or changes over time.
+
+8. **No Causal Analysis:** The analysis identifies differences and patterns across states and provider specialties but does not establish the underlying causes of these differences.
+
+## 10. Recommendations
+
+Based on the findings from the analysis, the following areas are recommended for further investigation:
+
+1. **Investigate Geographic Differences in Service Utilization:** Further examine states such as Florida and California, which recorded almost identical total service volumes despite having different provider counts. Comparing their average services per provider could provide additional insight into geographic utilization patterns.
+
+2. **Investigate High Service Intensity Across Specialties:** Clinical Laboratory recorded the highest average services per provider, at approximately 97,000. Further analysis should explore the factors contributing to this high service volume compared with other specialties.
+
+3. **Examine Medicare Payments Relative to Service Volume:** Calculate Medicare payment per service and payment per provider across specialties to better understand differences in expenditure beyond aggregate payment totals.
+
+4. **Incorporate Beneficiary Characteristics:** Use average beneficiary age and risk scores to provide additional context when comparing service utilization across provider types and geographic locations.
+
+5. **Explore Rural and Urban Provider Distribution:** Use the Rural-Urban Commuting Area (RUCA) classifications to investigate differences in provider availability and service utilization between rural and urban locations.
+
+6. **Conduct Further Outlier Analysis:** Identify providers or specialties with unusually high or low service volumes and Medicare payments compared with others in similar categories. These patterns should be investigated further rather than automatically interpreted as inappropriate utilization.
+
+7. **Expand the Analysis Across Multiple Years:** Incorporate previous years of Medicare data to identify changes in provider distribution, service utilization and Medicare expenditure over time.
 
    
  

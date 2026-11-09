@@ -215,6 +215,60 @@ The nine missing organisation-name values were not automatically replaced or del
 
 Overall observation: Diagnostic Radiology stands out with a substantially higher reported beneficiary volume than the other specialties in the top 10.
 
+#### 3. What are the *Top 10* Provider types with the highest Total Services reported?
+
+![](medicareservicereported.PNG)
+---
+- Hematology-Oncology recorded the highest total service volume, with approximately 211 million reported services, followed by Clinical Laboratory at 135 million.
+
+- Nurse Practitioners ranked third with 119 million services, while Diagnostic Radiology and Rheumatology recorded 114 million and 112 million respectively.
+
+- Internal Medicine and Physical Therapist in Private Practice recorded 91 million and 90 million services.
+
+- Ophthalmology and Pharmacy recorded 86 million and 84 million services respectively, while Family Practice ranked tenth with 67 million.
+
+- Hematology-Oncology recorded the highest service volume, while Diagnostic Radiology led in reported beneficiary volume in the previous analysis. This difference highlights that provider specialties with the highest reported beneficiary counts do not necessarily account for the highest total service volumes.
+
+ #### 4. Which Provider Types has the highest Service per Provider?
+
+ ![](medicareserviceperprovider.PNG)
+ ---
+
+**Key Findings: Average Services per Provider by Specialty**
+
+- Clinical Laboratory recorded the highest average services per provider, at approximately 97,000, considerably higher than all other provider types in the top 10.
+  
+- Pharmacy ranked second with approximately 54,000 services per provider, followed by Hematology-Oncology (45,000) and Rheumatology (43,000).
+  
+- Medical Oncology recorded approximately 27,000 services per provider.
+  
+- Hematology, All Other Suppliers and Independent Diagnostic Testing Facility each recorded approximately 16,000 services per provider.
+  
+- Ambulance Service Provider had the lowest average among the top 10, at approximately 12,000.
+
+-  Clinical Laboratory had the highest average services per provider despite ranking second in total service volume. Conversely, Hematology-Oncology led in total reported services but ranked third in average services per provider. This highlights the importance of considering provider counts when comparing service utilization across specialties.
+
+  #### 5.  How does the Total Medicare Payment vary across provider types?
+
+  ![](medicarepayment.PNG)
+  ---
+
+- Nurse Practitioners received the highest total Medicare payments among the provider types displayed, accounting for approximately $5.3 billion.
+  
+- Ophthalmology ranked second with $4.3 billion, followed by Internal Medicine at $4.1 billion.
+  
+- Hematology-Oncology received approximately $3.6 billion, ranking fourth despite recording the highest total reported service volume in the previous analysis.
+  
+- Ambulatory Surgical Centers and Clinical Laboratories accounted for approximately $3.2 billion and $3.1 billion respectively.
+  
+- Family Practice received $2.7 billion, while Ambulance Service Providers and Diagnostic Radiology accounted for $2.3 billion and $2.2 billion.
+  
+- Physician Assistants recorded the lowest total Medicare payments among the top 10 provider types, at approximately $1.9 billion.
+
+- Nurse Practitioners ranked highest in total Medicare payments, while Hematology-Oncology led in total reported services and Diagnostic Radiology led in reported beneficiary volume. These differences demonstrate that high service volume or beneficiary counts do not necessarily correspond to the highest Medicare expenditure.
+
+
+
 
    
  
